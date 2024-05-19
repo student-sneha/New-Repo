@@ -1,0 +1,28 @@
+*{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#mainTopic{
+    color:  blue;
+}
+.about {
+    color:white;
+    background-color: black;
+}
+.button{
+    color: azure;
+    background-color: purple;
+}
+.button:hover {
+    background-color:yellow;
+    color: blue;
+}
+.about:nth-of-type(3n) {
+    color: yellow;
+}
+h1::first-letter{
+    color:red;
+}
+input[type="radio"]:checked:label{
+    color:darkgreen;
+}

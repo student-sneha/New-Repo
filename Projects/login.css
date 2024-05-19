@@ -1,0 +1,41 @@
+.box{
+    width:400px;
+    height:400px;
+    background-color: rgb(197, 131, 236);
+    border-radius:5px;
+    margin:10px auto;
+    position: relative;
+    top: 100px;
+    box-shadow: 2px 4px 18px black;
+}
+.login{
+    width: 400px;
+    height: 120px ;
+    background-color: rgb(106, 110, 110);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    text-align: center;
+    position: relative;
+    top: 60;
+
+}
+
+.inner{
+    margin: 20px;
+    padding:0px 10px 10px 10px ;
+}
+input{
+    font-weight:bold;
+    opacity: 0.5;
+    color: rgb(4, 4, 4);
+    padding: 2%;
+}
+
+button{
+    border-width :5px;
+    border-radius:3px ;
+}
+button:active{
+    color:rgb(145, 149, 150);
+    background-color: rgb(19, 19, 19);
+}

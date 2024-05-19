@@ -1,0 +1,32 @@
+#login{
+    color:pink;
+    background-color: black;;
+}
+.follow{
+    color:aqua;
+}
+/* descendant  */
+nav ul li a{
+    background-color: rgb(255, 0, 255);
+    color: aliceblue;
+}
+p+h3{
+    color:aqua;
+}
+div>input {
+    background-color:darkgrey;
+}
+p a:hover{
+    text-decoration: overline;
+}
+span button:active {
+    color:lavender;
+    background-color: black;
+}
+ input[type="radio"]:checked+label{
+    color:red;
+    font-weight: bold;
+}
+.post:nth-of-type(2n){
+    background-color: blanchedalmond;
+}
